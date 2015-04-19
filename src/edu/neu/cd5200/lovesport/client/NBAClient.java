@@ -63,7 +63,7 @@ public class NBAClient {
 
 	
 	//String is very difficult to manipulate, so we create an object so we can handle it more easily.
-	private String getJsonStringForNBAUrl(String urlStr1) {
+	public String getJsonStringForNBAUrl(String urlStr1) {
 		try {
 			//create a url object to represent the string.
 			URL url = new URL(urlStr1);
